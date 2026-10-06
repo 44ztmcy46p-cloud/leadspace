@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LeadSpace — wizja 3 · kierunek Wix</title>
+<meta name="description" content="LeadSpace — pozyskiwanie leadów dla fotowoltaiki, ubezpieczeń i motoryzacji. Poznaj proces i platformę.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Cpath%20fill='%234c3ff0'%20d='M16%201%2030%209v14l-14%208L2%2023V9Z'/%3E%3Cpath%20fill='white'%20d='m16%2010%206%203v7l-6%203-6-3v-7Z'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="./assets/styles.css">
+<script defer src="./assets/app.js">
+</script>
+</head>
+<body id="v3-page" class="concept-page v3-page" data-controller="modal">
+<a href="#v3-main" class="concept-skip">Przejdź do treści</a>
+<!-- BEGIN COMPONENT | id: v3-header | purpose: header -->
+<header id="v3-header" data-component="header" data-partial-candidate="leadspace/vision3/header.html" class="v3-header">
+<div class="concept-wrap flex min-h-24 items-center justify-between gap-6">
+<a class="concept-logo" href="#v3-home">leadspace</a>
+<nav aria-label="Menu główne" class="hidden gap-8 lg:flex">
+<a href="#v3-how">Jak to działa</a>
+<a href="#v3-features">Funkcjonalności</a>
+<a href="#v3-start">Współpraca</a>
+</nav>
+<button type="button" class="concept-button " data-action="modal#open" >Umów spotkanie</button>
+</div>
+</header>
+<!-- END COMPONENT | id: v3-header -->
+<main id="v3-main">
+<!-- BEGIN COMPONENT | id: v3-home | purpose: home -->
+<section id="v3-home" data-component="home" data-partial-candidate="leadspace/vision3/home.html" class="v3-hero">
+<div class="concept-wrap text-center">
+<p class="v3-kicker">Najwyższej jakości leady na wyciągnięcie ręki</p>
+<h1>Zajmij się tym,<br>co najważniejsze.<br>
+<span>Resztę zrobimy za Ciebie.</span>
+</h1>
+<p class="v3-intro">LeadSpace pozyska dla Ciebie zainteresowanych klientów.<br class="hidden sm:block"> Ty skupisz się na złożeniu oferty i zamknięciu sprzedaży.</p>
+<a href="#v3-how" class="concept-button">Dowiedz się więcej</a>
+<!-- BEGIN COMPONENT | id: v3-product | purpose: product -->
+<div id="v3-product" data-component="product" data-partial-candidate="leadspace/vision3/product.html" class="v3-product">
+<div class="v3-browserbar" aria-hidden="true">
+<b>● ● ●</b>
+<span>Twój dzień w LeadSpace</span>
+</div>
+<div id="v3-hero-leads-preview" data-component="leads-preview" class="app-preview" aria-labelledby="v3-hero-leads-title" data-partial-candidate="leadspace/vision3/mockups/leads_preview.html">
+<div id="v3-hero-preview-toolbar" class="app-topbar">
+<span class="app-brand">
+<i data-lucide="gem" class="app-icon" aria-hidden="true">
+</i>
+<strong>LeadSpace</strong>
+</span>
+<span class="app-search" aria-hidden="true">
+<i data-lucide="search" class="app-icon" aria-hidden="true">
+</i>
+<span>Szukaj leadów…</span>
+</span>
+<span class="app-avatar" aria-hidden="true">A</span>
+</div>
+<div id="v3-hero-preview-layout" class="app-preview-layout">
+<aside id="v3-hero-preview-sidebar" class="app-sidebar" aria-label="Moduły systemu — podgląd">
+<ul>
+<li class="app-sidebar-item ">
+<i data-lucide="user-plus" class="app-icon" aria-hidden="true">
+</i>
+<span>Panel</span>
+</li>
+<li class="app-sidebar-item is-active">
+<i data-lucide="users" class="app-icon" aria-hidden="true">
+</i>
+<span>Leady</span>
+</li>
+<li class="app-sidebar-item ">
+<i data-lucide="calendar-days" class="app-icon" aria-hidden="true">
+</i>
+<span>Kalendarz</span>
+</li>
+<li class="app-sidebar-item ">
+<i data-lucide="mic" class="app-icon" aria-hidden="true">
+</i>
+<span>Nagrania</span>
+</li>
+<li class="app-sidebar-item ">
+<i data-lucide="chart-no-axes-column-increasing" class="app-icon" aria-hidden="true">
+</i>
+<span>Raporty</span>
+</li>
+<li class="app-sidebar-item ">
+<i data-lucide="cloud-download" class="app-icon" aria-hidden="true">
+</i>
+<span>Eksport</span>
+</li>
+</ul>
+</aside>
+<div id="v3-hero-preview-content" class="app-preview-content">
+<div class="app-screen-heading">
+<h3 id="v3-hero-leads-title">Leady</h3>
+<span class="app-count">5</span>
+</div>
+<div id="v3-hero-preview-filters" class="app-preview-filters" aria-label="Filtry — podgląd">
+<span class="is-active">Wszystkie</span>
+<span>Nowe</span>
+<span>W kontakcie</span>
+</div>
+<div id="v3-hero-leads-table-viewport" class="app-table-viewport" tabindex="0" role="region" aria-label="Tabela leadów — przewijaj poziomo na mniejszym ekranie">
+<table id="v3-hero-leads-table" class="app-leads-table">
+<caption class="sr-only">Przykładowe leady w systemie LeadSpace</caption>
+<colgroup>
+<col style="width:41%">
+<col style="width:32%">
+<col style="width:27%">
+</colgroup>
+<thead>
+<tr>
+<th scope="col">Imię i nazwisko</th>
+<th scope="col">Branża</th>
+<th scope="col">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr id="v3-hero-lead-anna-kowalska">
+<td>
+<span class="app-cell-label" title="Anna Kowalska">Anna Kowalska</span>
+</td>
+<td>
+<span class="app-cell-label" title="Fotowoltaika">Fotowoltaika</span>
+</td>
+<td>
+<span class="app-status app-status-ready">Gotowy</span>
+</td>
+</tr>
+<tr id="v3-hero-lead-piotr-nowak">
+<td>
+<span class="app-cell-label" title="Piotr Nowak">Piotr Nowak</span>
+</td>
+<td>
+<span class="app-cell-label" title="Ubezpieczenia">Ubezpieczenia</span>
+</td>
+<td>
+<span class="app-status app-status-checking">Weryfikacja</span>
+</td>
+</tr>
+<tr id="v3-hero-lead-katarzyna-wisniewska">
+<td>
+<span class="app-cell-label" title="Katarzyna Wiśniewska">Katarzyna Wiśniewska</span>
+</td>
+<td>
+<span class="app-cell-label" title="Motoryzacja">Motoryzacja</span>
+</td>
+<td>
+<span class="app-status app-status-ready">Gotowy</span>
+</td>
+</tr>
+<tr id="v3-hero-lead-michal-zielinski">
+<td>
+<span class="app-cell-label" title="Michał Zieliński">Michał Zieliński</span>
+</td>
+<td>
+<span class="app-cell-label" title="Ubezpieczenia">Ubezpieczenia</span>
+</td>
+<td>
+<span class="app-status app-status-new">Nowy</span>
+</td>
+</tr>
+<tr id="v3-hero-lead-joanna-kaminska">
+<td>
+<span class="app-cell-label" title="Joanna Kamińska">Joanna Kamińska</span>
+</td>
+<td>
+<span class="app-cell-label" title="Fotowoltaika">Fotowoltaika</span>
+</td>
+<td>
+<span class="app-status app-status-ready">Gotowy</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<p class="concept-caption">Przykładowe dane — podgląd platformy</p>
+</div>
+<!-- END COMPONENT | id: v3-product -->
+</div>
+</section>
+<!-- END COMPONENT | id: v3-home -->
+<!-- BEGIN COMPONENT | id: v3-industries | purpose: industries -->
+<section id="v3-industries" data-component="industries" data-partial-candidate="leadspace/vision3/industries.html" class="concept-section">
+<div class="concept-wrap">
+<p class="concept-eyebrow text-center">Trzy branże. Jeden partner.</p>
+<h2 class="text-center">Jakie leady pozyskujemy?</h2>
+<div class="grid gap-6 md:grid-cols-3 mt-12">
+<article id="v3-industry-1" class="v3-industry">
+<img src="./assets/house.png" alt="" width="1536" height="1024" loading="lazy">
+<h3>Fotowoltaika</h3>
+<p>Rozmawiaj z osobami zainteresowanymi własną instalacją.</p>
+<button type="button" class="concept-button outline" data-action="modal#open" data-category="Fotowoltaika">Porozmawiajmy</button>
+</article>
+<article id="v3-industry-2" class="v3-industry">
+<img src="./assets/insurance.png" alt="" width="1536" height="1024" loading="lazy">
+<h3>Ubezpieczenia</h3>
+<p>Docieraj do osób szukających odpowiedniej ochrony.</p>
+<button type="button" class="concept-button outline" data-action="modal#open" data-category="Ubezpieczenia">Porozmawiajmy</button>
+</article>
+<article id="v3-industry-3" class="v3-industry">
+<img src="./assets/car.png" alt="" width="1536" height="1024" loading="lazy">
+<h3>Motoryzacja</h3>
+<p>Poznaj potrzeby osób rozważających zakup samochodu.</p>
+<button type="button" class="concept-button outline" data-action="modal#open" data-category="Motoryzacja">Porozmawiajmy</button>
+</article>
+</div>
+</div>
+</section>
+<!-- END COMPONENT | id: v3-industries -->
+<!-- BEGIN COMPONENT | id: v3-how | purpose: how -->
+<section id="v3-how" data-component="how" data-partial-candidate="leadspace/vision3/how.html" class="concept-section v3-blue">
+<div class="concept-wrap">
+<p class="concept-eyebrow text-center">Wszystko w jednym miejscu</p>
+<h2 class="text-center">Jak to działa?</h2>
+<p class="concept-deck text-center mx-auto">Otrzymujesz kontakty i narzędzia, które pomagają zamienić pierwszą rozmowę w uporządkowany proces sprzedaży.</p>
+<div class="v3-tools">
+<a href="#v3-feature-0">
+<i data-lucide="calendar-days" aria-hidden="true">
+</i>
+<span>Kalendarz</span>
+</a>
+<a href="#v3-feature-1">
+<i data-lucide="mic" aria-hidden="true">
+</i>
+<span>Nagrania</span>
+</a>
+<a href="#v3-feature-2">
+<i data-lucide="layers" aria-hidden="true">
+</i>
+<span>Proces obsługi</span>
+</a>
+<a href="#v3-feature-3">
+<i data-lucide="chart-no-axes-column-increasing" aria-hidden="true">
+</i>
+<span>Raporty</span>
+</a>
+<a href="#v3-feature-4">
+<i data-lucide="cloud-download" aria-hidden="true">
+</i>
+<span>Eksport</span>
+</a>
+</div>
+</div>
+</section>
+<!-- END COMPONENT | id: v3-how -->
+<!-- BEGIN COMPONENT | id: v3-value | purpose: value -->
+<section id="v3-value" data-component="value" data-partial-candidate="leadspace/vision3/value.html" class="concept-section">
+<div class="concept-wrap grid items-center gap-12 lg:grid-cols-2">
+<div>
+<p class="concept-eyebrow">Więcej niż numer telefonu</p>
+<h2>Przygotuj się.<br>Porozmawiaj.<br>Pozyskaj klienta.</h2>
+<p class="concept-deck">Poznaj potrzeby klienta jeszcze przed pierwszym kontaktem. Nagrania, historia i dedykowany opiekun pomagają Ci wejść w rozmowę z właściwym kontekstem.</p>
+<button type="button" class="concept-button " data-action="modal#open" >Zobacz, jak pracujemy</button>
+</div>
+<div class="v3-value-list">
+<div>
+<i data-lucide="users" aria-hidden="true">
+</i>
+<h3>Zainteresowani klienci</h3>
+</div>
+<div>
+<i data-lucide="monitor" aria-hidden="true">
+</i>
+<h3>Dostęp do systemu CRM</h3>
+</div>
+<div>
+<i data-lucide="headphones" aria-hidden="true">
+</i>
+<h3>Dedykowany opiekun</h3>
+</div>
+</div>
+</div>
+</section>
+<!-- END COMPONENT | id: v3-value -->
+<!-- BEGIN COMPONENT | id: v3-start | purpose: start -->
+<section id="v3-start" data-component="start" data-partial-candidate="leadspace/vision3/start.html" class="concept-section v3-pink">
+<div class="concept-wrap">
+<p class="concept-eyebrow">Krok po kroku</p>
+<h2>Jak rozpocząć współpracę?</h2>
+<div class="mt-12">
+<article id="v3-step-1" class="v3-step">
+<span class="v3-step-number">01</span>
+<div>
+<h3>Skontaktuj się</h3>
+<p>Porozmawiajmy o Twojej branży, regionie i potrzebach.</p>
+<p class="concept-muted">Poznasz platformę i proces pozyskiwania kontaktów.</p>
+</div>
+<button type="button" class="concept-button outline" data-action="modal#open" >Umów spotkanie</button>
+</article>
+<article id="v3-step-2" class="v3-step">
+<span class="v3-step-number">02</span>
+<div>
+<h3>Rozpocznij współpracę</h3>
+<p>Ustalimy zakres współpracy i przygotujemy konto.</p>
+<p class="concept-muted">Przejdziemy razem przez obsługę systemu i pierwsze zamówienie.</p>
+</div>
+<button type="button" class="concept-button outline" data-action="modal#open" >Umów spotkanie</button>
+</article>
+<article id="v3-step-3" class="v3-step">
+<span class="v3-step-number">03</span>
+<div>
+<h3>Pozyskuj klientów</h3>
+<p>Odbieraj kontakty i prowadź rozmowy z klientami.</p>
+<p class="concept-muted">Korzystaj z kalendarza, nagrań, statusów i raportów.</p>
+</div>
+<button type="button" class="concept-button outline" data-action="modal#open" >Umów spotkanie</button>
+</article>
+</div>
+</div>
+</section>
+<!-- END COMPONENT | id: v3-start -->
+<!-- BEGIN COMPONENT | id: v3-features | purpose: features -->
+<section id="v3-features" data-component="features" data-partial-candidate="leadspace/vision3/features.html" class="concept-section">
+<div class="concept-wrap grid gap-12 lg:grid-cols-[.8fr_1.2fr]">
+<div>
+<p class="concept-eyebrow">Platforma LeadSpace</p>
+<h2>Dobry kontakt<br>to dopiero początek.</h2>
+<p class="concept-deck">Narzędzia do pracy z klientem, od pierwszej rozmowy do finalnej decyzji.</p>
+</div>
+<div>
+<details id="v3-feature-0" class="concept-faq" open>
+<summary>
+<i data-lucide="calendar-days" aria-hidden="true">
+</i>Kalendarz<span>+</span>
+</summary>
+<h3>Spotkania pod kontrolą</h3>
+<p>Zaplanuj rozmowy i kolejne działania. Zobacz, z kim i kiedy kontaktuje się Twój zespół.</p>
+</details>
+<details id="v3-feature-1" class="concept-faq" >
+<summary>
+<i data-lucide="mic" aria-hidden="true">
+</i>Nagrania<span>+</span>
+</summary>
+<h3>Kontekst przed rozmową</h3>
+<p>Zapoznaj się z rozmową doradcy i przygotuj ofertę pasującą do potrzeb klienta.</p>
+</details>
+<details id="v3-feature-2" class="concept-faq" >
+<summary>
+<i data-lucide="layers" aria-hidden="true">
+</i>Proces obsługi<span>+</span>
+</summary>
+<h3>Każdy kontakt ma następny krok</h3>
+<p>Uporządkuj statusy kontaktów i planuj dalszą obsługę w jednym miejscu.</p>
+</details>
+<details id="v3-feature-3" class="concept-faq" >
+<summary>
+<i data-lucide="chart-no-axes-column-increasing" aria-hidden="true">
+</i>Raporty<span>+</span>
+</summary>
+<h3>Wiesz, co dzieje się w sprzedaży</h3>
+<p>Przeglądaj przebieg obsługi leadów i wyniki pracy zespołu.</p>
+</details>
+<details id="v3-feature-4" class="concept-faq" >
+<summary>
+<i data-lucide="cloud-download" aria-hidden="true">
+</i>Eksport<span>+</span>
+</summary>
+<h3>Dane gotowe do dalszej pracy</h3>
+<p>Przenieś potrzebne informacje do własnych zestawień i narzędzi.</p>
+</details>
+</div>
+</div>
+</section>
+<!-- END COMPONENT | id: v3-features -->
+<!-- BEGIN COMPONENT | id: v3-contact | purpose: contact -->
+<section id="v3-contact" data-component="contact" data-partial-candidate="leadspace/vision3/contact.html" class="concept-section v3-blue">
+<div class="concept-wrap text-center">
+<p class="concept-eyebrow">Zróbmy pierwszy krok</p>
+<h2>Ty znasz swoją ofertę.<br>My pomożemy znaleźć odbiorców.</h2>
+<p class="concept-deck mx-auto">Porozmawiajmy o tym, jak LeadSpace może wesprzeć Twoją sprzedaż.</p>
+<button type="button" class="concept-button " data-action="modal#open" >Umów spotkanie</button>
+</div>
+</section>
+<!-- END COMPONENT | id: v3-contact -->
+</main>
+<!-- BEGIN COMPONENT | id: v3-footer | purpose: footer -->
+<footer id="v3-footer" data-component="footer" data-partial-candidate="leadspace/vision3/footer.html" class="concept-footer">
+<div class="concept-wrap flex flex-wrap items-center justify-between gap-8">
+<a class="concept-logo" href="#v3-home">leadspace<span>®</span>
+</a>
+<a href="mailto:info@leadspace.pl">info@leadspace.pl</a>
+<span>© 2026 LeadSpace</span>
+</div>
+</footer>
+<!-- END COMPONENT | id: v3-footer -->
+<!-- BEGIN COMPONENT | id: v3-contact-dialog | purpose: shared contact dialog -->
+<dialog aria-labelledby="v3-dialog-title" aria-describedby="v3-dialog-description" data-modal-target="dialog" data-action="click-&gt;modal#backdrop close-&gt;modal#restore" class="modal" id="v3-contact-dialog" data-component="contact-dialog" data-partial-candidate="leadspace/partials/contact_dialog.html">
+<div class="p-7 sm:p-9">
+<div class="flex items-start justify-between gap-4">
+<h2 data-modal-target="title" id="v3-dialog-title" class="text-2xl font-bold">Umów spotkanie</h2>
+<button type="button" data-action="modal#close" aria-label="Zamknij okno" class="rounded-lg p-1.5 text-muted hover:bg-[#f1f3ff]">
+<i data-lucide="x" class="size-6" aria-hidden="true">
+</i>
+</button>
+</div>
+<p data-modal-target="description" id="v3-dialog-description" class="mt-3 text-base leading-relaxed text-muted">Porozmawiajmy o leadach dla Twojej firmy.</p>
+<form data-modal-target="form" data-action="submit-&gt;modal#submit" class="mt-6 space-y-4" id="v3-contact-form" data-component="contact-form">
+<label class="block text-sm font-medium">Imię i nazwisko<input name="name" required autocomplete="name" class="input mt-2" placeholder="Jan Kowalski" id="v3-contact-name">
+</label>
+<label class="block text-sm font-medium">Adres e-mail<input name="email" type="email" required autocomplete="email" class="input mt-2" placeholder="jan@firma.pl" id="v3-contact-email">
+</label>
+<label class="block text-sm font-medium">Branża<select name="category" data-modal-target="category" class="input mt-2" id="v3-contact-category">
+<option value="">Wybierz branżę</option>
+<option value="Fotowoltaika">Fotowoltaika</option>
+<option>Ubezpieczenia</option>
+<option>Motoryzacja</option>
+<option>Inna branża</option>
+</select>
+</label>
+<p class="text-xs leading-relaxed text-muted">Formularz demonstracyjny. Dane nie są zapisywane ani wysyłane.</p>
+<button data-modal-target="submit" class="btn btn-primary w-full" id="v3-contact-form-action-1">Przygotuj zgłoszenie</button>
+<p data-modal-target="notice" role="status" hidden class="rounded-xl bg-[#eef4ff] p-4 text-sm leading-relaxed text-muted" id="v3-contact-notice">
+</p>
+</form>
+</div>
+</dialog>
+<!-- END COMPONENT | id: v3-contact-dialog -->
+</body>
+</html>

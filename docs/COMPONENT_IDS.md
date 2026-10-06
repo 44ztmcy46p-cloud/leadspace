@@ -1,0 +1,52 @@
+# Rejestr ID - wizja 3
+
+ID są kontraktem dla kotwic, ARIA i przyszłych partiali.
+
+| ID | Element |
+| --- | --- |
+| `v3-page` | `body` |
+| `v3-header` | `header` |
+| `v3-main` | `main` |
+| `v3-home` | `section` |
+| `v3-product` | `div` |
+| `v3-hero-leads-preview` | `div` |
+| `v3-hero-preview-toolbar` | `div` |
+| `v3-hero-preview-layout` | `div` |
+| `v3-hero-preview-sidebar` | `aside` |
+| `v3-hero-preview-content` | `div` |
+| `v3-hero-leads-title` | `h3` |
+| `v3-hero-preview-filters` | `div` |
+| `v3-hero-leads-table-viewport` | `div` |
+| `v3-hero-leads-table` | `table` |
+| `v3-hero-lead-anna-kowalska` | `tr` |
+| `v3-hero-lead-piotr-nowak` | `tr` |
+| `v3-hero-lead-katarzyna-wisniewska` | `tr` |
+| `v3-hero-lead-michal-zielinski` | `tr` |
+| `v3-hero-lead-joanna-kaminska` | `tr` |
+| `v3-industries` | `section` |
+| `v3-industry-1` | `article` |
+| `v3-industry-2` | `article` |
+| `v3-industry-3` | `article` |
+| `v3-how` | `section` |
+| `v3-value` | `section` |
+| `v3-start` | `section` |
+| `v3-step-1` | `article` |
+| `v3-step-2` | `article` |
+| `v3-step-3` | `article` |
+| `v3-features` | `section` |
+| `v3-feature-0` | `details` |
+| `v3-feature-1` | `details` |
+| `v3-feature-2` | `details` |
+| `v3-feature-3` | `details` |
+| `v3-feature-4` | `details` |
+| `v3-contact` | `section` |
+| `v3-footer` | `footer` |
+| `v3-contact-dialog` | `dialog` |
+| `v3-dialog-title` | `h2` |
+| `v3-dialog-description` | `p` |
+| `v3-contact-form` | `form` |
+| `v3-contact-name` | `input` |
+| `v3-contact-email` | `input` |
+| `v3-contact-category` | `select` |
+| `v3-contact-form-action-1` | `button` |
+| `v3-contact-notice` | `p` |

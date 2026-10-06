@@ -1,0 +1,22 @@
+{
+  "name": "leadspace-wizja-3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node scripts/check.mjs",
+    "start": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "@hotwired/stimulus": "3.2.2",
+    "lucide": "^1.49.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

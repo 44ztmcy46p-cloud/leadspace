@@ -1,0 +1,12 @@
+Pracujemy nad LeadSpace, wyłącznie nad wizją numer 3 z tej paczki.
+
+Rozpakuj i przeczytaj README.md, AGENTS.md oraz docs/STRUCTURE.md. Uruchom istniejący projekt i pokaż podgląd, jeżeli środowisko to umożliwia. Jeżeli nie ma podglądu w czacie, udostępnij aktualny preview.html.
+
+Źródłem prawdy jest index.html oraz src/styles.css i src/*.js. Nie odtwarzaj projektu z obrazka i nie zastępuj go nowym szablonem. Zachowaj HTML, Tailwind 4 i Stimulus.js. Nie uruchamiaj Django; to przyszły etap opisany w docs/DJANGO_HANDOFF.md.
+
+Wprowadzaj moje poprawki w kodzie. Zachowuj istniejące ID dużych bloków i komentarze granic komponentów. Jeśli zmieniasz strukturę lub dodajesz ID, aktualizuj dokumentację. Nie edytuj ręcznie assets/styles.css, assets/app.js ani preview.html: generuj je przez npm run build.
+
+Po zmianach sprawdź npm run check i npm run build. Jeżeli masz przeglądarkę testową, sprawdź desktop, mobile oraz dialog i rozwijane funkcje. Podaj krótko, co zmieniono, co sprawdzono i jak otworzyć wynik. Nie publikuj strony ani nie podłączaj formularza do usług bez mojego polecenia.
+
+Moja pierwsza zmiana:
+[TUTAJ WPISZ POLECENIE]
